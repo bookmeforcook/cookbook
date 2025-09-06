@@ -1,10 +1,18 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appID": "ABCDE12345.com.example.app",
-        "paths": ["/", "/products/*", "/profile/*"]
+        "appIDs": ["DF4B9P323N.uk.co.Cook"],
+        "components": [
+          {
+            "/": "/kitchen/*",
+            "comment": "Kitchen detail deep links"
+          },
+          {
+            "/": "/app",
+            "comment": "Generic marketing/open app link"
+          }
+        ]
       }
     ]
   }

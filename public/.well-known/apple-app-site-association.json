@@ -2,15 +2,18 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["DF4B9P323N.uk.co.Cook"],
+        "appIDs": [
+          "DF4B9P323N.uk.co.Cook"
+        ],
         "components": [
           {
-            "/": "/kitchen/*",
-            "comment": "Kitchen detail deep links"
+            "/": "/kitchen"
           },
           {
-            "/": "/app",
-            "comment": "Generic marketing/open app link"
+            "/": "/kitchen/*"
+          },
+          {
+            "/": "/app"
           }
         ]
       }

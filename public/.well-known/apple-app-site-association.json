@@ -5,9 +5,9 @@
         "appIDs": ["DF4B9P323N.uk.co.Cook"],
         "components": [
           { "/": "/dish/*" },
+          { "/": "/dish" },
           { "/": "/kitchen/*" },
-          { "/": "/dish", "?": "id=*" },
-          { "/": "/kitchen//dish/" }
+          { "/": "/kitchen" }
         ]
       }
     ]
